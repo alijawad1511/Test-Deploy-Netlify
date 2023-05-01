@@ -1,34 +1,31 @@
 import React from "react";
-import Navbar from "../components/home/Navbar";
-import bg from "../images/bg.jpg";
 import "./HomePage.css";
 import ImageSlider from "../components/home/ImageSlider";
 import Footer from "../components/home/Footer";
 import { Link } from "react-router-dom";
-// https://uilogos.co/img/logotype/ideaa.png
 const HomePage = () => {
   return (
     <>
       {/* <Navbar /> */}
       <nav>
         <div className="logo">
-          <a href="#">
+          <a href="/">
             <img src="https://uilogos.co/img/logotype/ideaa.png" alt="Logo" />
           </a>
         </div>
         <div className="menu">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -51,7 +48,7 @@ const HomePage = () => {
         <div className="image-container">
           <img
             src="https://dcompany.no/content/uploads/sites/2/2022/01/General-Meetings-1024x893.png"
-            alt="Startup Image"
+            alt="Startup Here"
           />
         </div>
         <div className="text-container">
